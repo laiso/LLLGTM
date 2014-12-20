@@ -23,6 +23,7 @@ How To Use
 4. Press `⌘+V` in textarea of GitHub issues
 5. :clap::clap::clap:
 
+
 LICENSE
 ===========
 
@@ -31,3 +32,9 @@ LICENSE
 :shit:The MIT License (MIT) :shit:
 
 :shit::shit::shit::shit::shit::shit::shit::shit::shit::shit:
+
+
+Suponsors
+==========
+
+[![Wishlist browse button](http://img.shields.io/wishlist/browse.png?color=yellow)](http://www.amazon.co.jp/registry/wishlist/1V0VYWT8ZW6BN "Buy an item on our wishlist for us")
