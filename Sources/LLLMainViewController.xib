@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LLLMainViewController">
+            <connections>
+                <outlet property="pictureView" destination="0e1-BN-1kv" id="52a-eR-eTs"/>
+                <outlet property="textField" destination="x29-vM-GwP" id="sg3-DT-WLO"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY" customClass="LLLMainView">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="289"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="FwD-OT-RZp">
+                    <rect key="frame" x="156" y="136" width="93" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="justified" title="Drop Here!" id="oES-mh-f8w">
+                        <font key="font" metaFont="system" size="18"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView id="0e1-BN-1kv" customClass="LLLPictureView">
+                    <rect key="frame" x="0.0" y="0.0" width="405" height="283"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" id="AW9-fl-Gdb"/>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="F79-0i-CbR"/>
+                    </connections>
+                </imageView>
+            </subviews>
+        </customView>
+        <textField wantsLayer="YES" verticalHuggingPriority="750" id="x29-vM-GwP">
+            <rect key="frame" x="0.0" y="0.0" width="134" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <shadow key="shadow" blurRadius="1">
+                <size key="offset" width="2" height="1"/>
+                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            </shadow>
+            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="LGTM" drawsBackground="YES" id="kyy-eR-y4P">
+                <font key="font" size="60" name="Impact"/>
+                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+            </textFieldCell>
+            <point key="canvasLocation" x="493" y="828"/>
+        </textField>
+    </objects>
+</document>

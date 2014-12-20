@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071B1AA81A3AEC2E008ACFB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B1AA71A3AEC2E008ACFB5 /* AppDelegate.m */; };
+		071B1AAA1A3AEC2E008ACFB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B1AA91A3AEC2E008ACFB5 /* main.m */; };
+		071B1AAC1A3AEC2E008ACFB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071B1AAB1A3AEC2E008ACFB5 /* Images.xcassets */; };
+		071B1AC61A3AF3F3008ACFB5 /* LLLMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B1AC51A3AF3F3008ACFB5 /* LLLMainView.m */; };
+		078B35D21A451111004380DB /* LLLWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078B35D01A451111004380DB /* LLLWindowController.m */; };
+		078B35D71A4518E3004380DB /* LLLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078B35D51A4518E3004380DB /* LLLMainViewController.m */; };
+		078B35D81A4518E3004380DB /* LLLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078B35D61A4518E3004380DB /* LLLMainViewController.xib */; };
+		078B35DA1A451D62004380DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078B35D91A451D62004380DB /* MainWindow.xib */; };
+		07FAA8581A3BCB7D00FEE6D7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071B1AAD1A3AEC2E008ACFB5 /* MainMenu.xib */; };
+		07FAA85B1A3C334900FEE6D7 /* LLLPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAA85A1A3C334900FEE6D7 /* LLLPictureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		071B1AB51A3AEC2E008ACFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071B1A991A3AEC2E008ACFB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071B1AA01A3AEC2E008ACFB5;
+			remoteInfo = FastLGTM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071B1AA11A3AEC2E008ACFB5 /* LLLGTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLLGTM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B1AA51A3AEC2E008ACFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071B1AA61A3AEC2E008ACFB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		071B1AA71A3AEC2E008ACFB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		071B1AA91A3AEC2E008ACFB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		071B1AAB1A3AEC2E008ACFB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		071B1AAE1A3AEC2E008ACFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		071B1AB41A3AEC2E008ACFB5 /* LLLGTMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLLGTMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B1AC41A3AF3F3008ACFB5 /* LLLMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLMainView.h; sourceTree = "<group>"; };
+		071B1AC51A3AF3F3008ACFB5 /* LLLMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLMainView.m; sourceTree = "<group>"; };
+		078B35CF1A451111004380DB /* LLLWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLWindowController.h; sourceTree = "<group>"; };
+		078B35D01A451111004380DB /* LLLWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLWindowController.m; sourceTree = "<group>"; };
+		078B35D41A4518E3004380DB /* LLLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLMainViewController.h; sourceTree = "<group>"; };
+		078B35D51A4518E3004380DB /* LLLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLMainViewController.m; sourceTree = "<group>"; };
+		078B35D61A4518E3004380DB /* LLLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLLMainViewController.xib; sourceTree = "<group>"; };
+		078B35D91A451D62004380DB /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		07FAA8591A3C334900FEE6D7 /* LLLPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLPictureView.h; sourceTree = "<group>"; };
+		07FAA85A1A3C334900FEE6D7 /* LLLPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLPictureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071B1A9E1A3AEC2E008ACFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B1AB11A3AEC2E008ACFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071B1A981A3AEC2E008ACFB5 = {
+			isa = PBXGroup;
+			children = (
+				071B1AA31A3AEC2E008ACFB5 /* Sources */,
+				071B1AA21A3AEC2E008ACFB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071B1AA21A3AEC2E008ACFB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071B1AA11A3AEC2E008ACFB5 /* LLLGTM.app */,
+				071B1AB41A3AEC2E008ACFB5 /* LLLGTMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071B1AA31A3AEC2E008ACFB5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				071B1AA41A3AEC2E008ACFB5 /* Supporting Files */,
+				071B1AAB1A3AEC2E008ACFB5 /* Images.xcassets */,
+				071B1AA61A3AEC2E008ACFB5 /* AppDelegate.h */,
+				071B1AA71A3AEC2E008ACFB5 /* AppDelegate.m */,
+				071B1AAD1A3AEC2E008ACFB5 /* MainMenu.xib */,
+				078B35D91A451D62004380DB /* MainWindow.xib */,
+				078B35CF1A451111004380DB /* LLLWindowController.h */,
+				078B35D01A451111004380DB /* LLLWindowController.m */,
+				071B1AC41A3AF3F3008ACFB5 /* LLLMainView.h */,
+				071B1AC51A3AF3F3008ACFB5 /* LLLMainView.m */,
+				078B35D41A4518E3004380DB /* LLLMainViewController.h */,
+				078B35D51A4518E3004380DB /* LLLMainViewController.m */,
+				078B35D61A4518E3004380DB /* LLLMainViewController.xib */,
+				07FAA8591A3C334900FEE6D7 /* LLLPictureView.h */,
+				07FAA85A1A3C334900FEE6D7 /* LLLPictureView.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		071B1AA41A3AEC2E008ACFB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				071B1AA51A3AEC2E008ACFB5 /* Info.plist */,
+				071B1AA91A3AEC2E008ACFB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071B1AA01A3AEC2E008ACFB5 /* LLLGTM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071B1ABE1A3AEC2E008ACFB5 /* Build configuration list for PBXNativeTarget "LLLGTM" */;
+			buildPhases = (
+				071B1A9D1A3AEC2E008ACFB5 /* Sources */,
+				071B1A9E1A3AEC2E008ACFB5 /* Frameworks */,
+				071B1A9F1A3AEC2E008ACFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLLGTM;
+			productName = FastLGTM;
+			productReference = 071B1AA11A3AEC2E008ACFB5 /* LLLGTM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		071B1AB31A3AEC2E008ACFB5 /* LLLGTMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071B1AC11A3AEC2E008ACFB5 /* Build configuration list for PBXNativeTarget "LLLGTMTests" */;
+			buildPhases = (
+				071B1AB01A3AEC2E008ACFB5 /* Sources */,
+				071B1AB11A3AEC2E008ACFB5 /* Frameworks */,
+				071B1AB21A3AEC2E008ACFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071B1AB61A3AEC2E008ACFB5 /* PBXTargetDependency */,
+			);
+			name = LLLGTMTests;
+			productName = FastLGTMTests;
+			productReference = 071B1AB41A3AEC2E008ACFB5 /* LLLGTMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071B1A991A3AEC2E008ACFB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LLL;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = laiso;
+				TargetAttributes = {
+					071B1AA01A3AEC2E008ACFB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					071B1AB31A3AEC2E008ACFB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 071B1AA01A3AEC2E008ACFB5;
+					};
+				};
+			};
+			buildConfigurationList = 071B1A9C1A3AEC2E008ACFB5 /* Build configuration list for PBXProject "LLLGTM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071B1A981A3AEC2E008ACFB5;
+			productRefGroup = 071B1AA21A3AEC2E008ACFB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071B1AA01A3AEC2E008ACFB5 /* LLLGTM */,
+				071B1AB31A3AEC2E008ACFB5 /* LLLGTMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071B1A9F1A3AEC2E008ACFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FAA8581A3BCB7D00FEE6D7 /* MainMenu.xib in Resources */,
+				078B35DA1A451D62004380DB /* MainWindow.xib in Resources */,
+				071B1AAC1A3AEC2E008ACFB5 /* Images.xcassets in Resources */,
+				078B35D81A4518E3004380DB /* LLLMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B1AB21A3AEC2E008ACFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071B1A9D1A3AEC2E008ACFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B1AAA1A3AEC2E008ACFB5 /* main.m in Sources */,
+				071B1AA81A3AEC2E008ACFB5 /* AppDelegate.m in Sources */,
+				07FAA85B1A3C334900FEE6D7 /* LLLPictureView.m in Sources */,
+				078B35D21A451111004380DB /* LLLWindowController.m in Sources */,
+				078B35D71A4518E3004380DB /* LLLMainViewController.m in Sources */,
+				071B1AC61A3AF3F3008ACFB5 /* LLLMainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071B1AB01A3AEC2E008ACFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071B1AB61A3AEC2E008ACFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071B1AA01A3AEC2E008ACFB5 /* LLLGTM */;
+			targetProxy = 071B1AB51A3AEC2E008ACFB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		071B1AAD1A3AEC2E008ACFB5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071B1AAE1A3AEC2E008ACFB5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071B1ABC1A3AEC2E008ACFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		071B1ABD1A3AEC2E008ACFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		071B1ABF1A3AEC2E008ACFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = LLLGTM;
+			};
+			name = Debug;
+		};
+		071B1AC01A3AEC2E008ACFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = LLLGTM;
+			};
+			name = Release;
+		};
+		071B1AC21A3AEC2E008ACFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FastLGTMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = LLLGTMTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLGTM.app/Contents/MacOS/FastLGTM";
+			};
+			name = Debug;
+		};
+		071B1AC31A3AEC2E008ACFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FastLGTMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = LLLGTMTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLGTM.app/Contents/MacOS/FastLGTM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071B1A9C1A3AEC2E008ACFB5 /* Build configuration list for PBXProject "LLLGTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B1ABC1A3AEC2E008ACFB5 /* Debug */,
+				071B1ABD1A3AEC2E008ACFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071B1ABE1A3AEC2E008ACFB5 /* Build configuration list for PBXNativeTarget "LLLGTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B1ABF1A3AEC2E008ACFB5 /* Debug */,
+				071B1AC01A3AEC2E008ACFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071B1AC11A3AEC2E008ACFB5 /* Build configuration list for PBXNativeTarget "LLLGTMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B1AC21A3AEC2E008ACFB5 /* Debug */,
+				071B1AC31A3AEC2E008ACFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071B1A991A3AEC2E008ACFB5 /* Project object */;
+}
