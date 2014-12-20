@@ -20,6 +20,4 @@
 
 @property (nonatomic, weak) IBOutlet id<LLLPictureViewDelegate> delegate;
 
-- (NSImage *)captureImageWithRect:(NSRect)rect;
-
 @end
