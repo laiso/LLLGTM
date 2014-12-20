@@ -1,4 +1,4 @@
 LLLGTM
 ======
 
-Mac app to post LGTM fastest :anchor::anchor: :anchor:
+Mac app to post LGTM fastest :rocket: :rocket: :rocket:
